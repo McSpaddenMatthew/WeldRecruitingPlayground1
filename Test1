@@ -1,0 +1,16 @@
+/weld-recruiting
+├── pages/
+│   ├── index.tsx           # Frontend form
+│   └── api/
+│       └── generate-report.ts  # Backend API
+├── components/ui/          # UI components (button, card, etc.)
+├── .env.local              # API keys
+├── package.json
+├── next.config.js
+npm install next react react-dom openai
+OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxx
+git init
+git remote add origin https://github.com/yourusername/weld-recruiting.git
+git add .
+git commit -m "Initial commit"
+git push -u origin main
