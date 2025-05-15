@@ -1,3 +1,86 @@
+# WeldRecruiting – AI-Powered Candidate Report Builder
+
+This is a lightweight, full-stack app to generate recruiter-to-hiring manager candidate reports using GPT-4. Built with Next.js, it allows recruiters to paste call transcripts and hiring manager profiles, and outputs structured summaries, fit analysis, and red flag detection.
+
+---
+
+## 🚀 Features
+- Paste candidate call transcripts + HM intake notes
+- Generate fit summaries, checklist matches, red flags, and reasons to interview
+- Built with React frontend and OpenAI-powered API
+- Deployable in 5 minutes on Vercel
+
+---
+
+## 🔧 Setup Instructions
+
+### 1. **Clone the Repo**
+```bash
+git clone https://github.com/yourusername/weld-recruiting.git
+cd weld-recruiting
+```
+
+### 2. **Install Dependencies**
+```bash
+npm install
+```
+
+### 3. **Create `.env.local`**
+Add your OpenAI API key:
+```env
+OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxx
+```
+
+### 4. **Run Locally**
+```bash
+npm run dev
+```
+Open http://localhost:3000 to test the form.
+
+---
+
+## 🧑‍💼 How Recruiters Use It
+1. Fill in the hiring manager’s key priorities
+2. Paste in the transcript from a candidate call
+3. Click “Generate Report”
+4. Review summary, match checklist, red flags, and why the HM should interview
+5. Copy + paste or export report to share
+
+---
+
+## 📦 Deploying to Vercel
+
+### 1. Push to GitHub
+```bash
+git init
+git remote add origin https://github.com/yourusername/weld-recruiting.git
+git add .
+git commit -m "Initial commit"
+git push -u origin main
+```
+
+### 2. Deploy on [https://vercel.com](https://vercel.com)
+- Click **New Project**
+- Select your GitHub repo
+- Add the `OPENAI_API_KEY` under Environment Variables
+- Click **Deploy**
+
+---
+
+## 🧠 Coming Soon
+- PDF export
+- Role-based permissions
+- Saved reports dashboard
+- Hiring manager intake form builder
+
+---
+
+## 📫 Contact
+For support, ideas, or integration help, contact:
+**team@weldrecruiting.co**
+
+
+
 /weld-recruiting
 ├── pages/
 │   ├── index.tsx           # Frontend form
